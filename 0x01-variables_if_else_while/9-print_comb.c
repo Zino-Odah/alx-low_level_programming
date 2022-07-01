@@ -2,13 +2,13 @@
 
 /**
  * main - Entry point
- * 
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int sdn;
+
 	for (sdn = '0'; sdn <= '9' ; sdn++)
 	{
 		putchar(sdn);

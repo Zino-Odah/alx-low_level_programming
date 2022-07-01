@@ -9,10 +9,11 @@
 int main(void)
 {
 	char l;
+
 	l = 'a';
 	while (l <= 'z')
 	{
-		if ((lm!= 'e') && (l != 'q'))
+		if ((l != 'e') && (l != 'q'))
 		{
 			putchar(l);
 			l++;
