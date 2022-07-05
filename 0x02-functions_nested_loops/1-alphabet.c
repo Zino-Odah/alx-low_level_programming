@@ -8,11 +8,12 @@
 
 void print_alphabet(void)
 {
+	char abc[] = "abcdefghijklmnopqrstuvwxyz";
 	int c;
 
-	for (c = 'A'; c <= 'Z'; c++)
+	for (c = 0; c <= 26; c++)
 	{
-		_putchar(tolower(c));
+		_putchar(abc[c]);
 	}
 	_putchar('\n');
 }
