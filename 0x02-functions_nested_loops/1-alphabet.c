@@ -11,7 +11,7 @@ void print_alphabet(void)
 	char abe[] = "abcdefghijklmnopqrstuvwxyz";
 	int c;
 
-	for (c = 0; c < 27; c++)
+	for (c = 0; c <= 26; c++)
 	{
 		_putchar(abe[c]);
 	}
