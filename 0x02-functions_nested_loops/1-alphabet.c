@@ -1,12 +1,19 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - It prints the alphabets in lowercase followed by a new line
  *
- * Return: Always 0 (Success)
+ * Return: nothing
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet()
+	char abe[] = "abcdefghijklmnopqrstuvwxyz";
+	int c;
+
+	for (c = 0; c < 27; c++)
+	{
+		_putchar(abe[c]);
+	}
+	_putchar('\n');
+}
