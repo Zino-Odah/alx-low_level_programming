@@ -12,7 +12,7 @@ char *_strcpy(char *dest, char *src)
 	int s;
 	int t;
 
-	for (s = 0; str[s] != '\0'; s++)
+	for (s = 0; src[s] != '\0'; s++)
 	{
 		;
 	}
@@ -20,9 +20,9 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[t] = src[t];
 	}
-	for (i = i; i <= n; i++)
+	for (t = t; t <= s; t++)
 	{
-		dest[i] = '\0';
+		dest[t] = '\0';
 	}
 	return (dest);
 }
